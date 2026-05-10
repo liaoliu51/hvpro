@@ -1,0 +1,31 @@
+{
+  "name": "hv-analysis-pro",
+  "version": "2.0.0",
+  "description": "横纵分析法 Pro - 廖势无双个人增强版，新增 4 个分析维度：最赚钱业务、转型情况、优势劣势、股价弹性",
+  "author": "廖势无双",
+  "license": "MIT",
+  "homepage": "https://github.com/liaoliu51/hv-analysis-pro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liaoliu51/hv-analysis-pro.git"
+  },
+  "keywords": [
+    "横纵分析",
+    "深度研究",
+    "上市公司分析",
+    "竞品对比",
+    "金融数据",
+    "廖势无双"
+  ],
+  "engines": {
+    "node": ">=22.0.0",
+    "python": ">=3.8.0"
+  },
+  "dependencies": {
+    "weasyprint": "*",
+    "markdown": "*"
+  },
+  "environment": {
+    "MX_APIKEY": "东方财富妙想 API Key（可选，仅上市公司分析需要）"
+  }
+}
